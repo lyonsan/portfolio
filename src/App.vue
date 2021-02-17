@@ -4,6 +4,7 @@
 </template>
 
 <script>
+import 'normalize.css'
 import HelloWorld from './components/HelloWorld.vue'
 
 export default {
@@ -15,6 +16,7 @@ export default {
 </script>
 
 <style>
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
