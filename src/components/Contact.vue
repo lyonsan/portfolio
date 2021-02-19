@@ -28,8 +28,8 @@ export default {
 <style scoped>
 
 .contact {
-  padding-top: 20vh;
-  height: 80vh;
+  padding-top: 30vh;
+  height: 70vh;
   width: 100vw;
   background-color: white;
 }
@@ -61,6 +61,24 @@ a {
   color: black;
   font-size: 25px;
   text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+  .contact-title>h1 {
+    font-size: 30px;
+  }
+  a {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .contact-title>h1 {
+    font-size: 20px;
+  }
+  a {
+    font-size: 15px;
+  }
 }
 
 </style>

@@ -75,4 +75,32 @@ p {
   font-size: 15px;
 }
 
+@media (max-width: 1024px) {
+  .output-title>h1 {
+    font-size: 30px;
+  }
+
+  a {
+    font-size:20px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 600px) {
+  .output-title>h1 {
+    font-size: 20px;
+  }
+
+  a {
+    font-size:15px;
+  }
+
+  p {
+    font-size: 8px;
+  }
+}
+
 </style>

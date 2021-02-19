@@ -42,4 +42,18 @@ h2 {
   font-size: 30px;
 }
 
+@media (max-width: 1024px) {
+  h2 {
+    padding-top: 5px;
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 600px) {
+  h2 {
+    padding-top: 10px;
+    font-size: 15px;
+  }
+}
+
 </style>

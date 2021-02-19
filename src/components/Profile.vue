@@ -28,8 +28,8 @@ export default {
 <style scoped>
 
 .profile {
-  padding-top: 20vh;
-  height: 80vh;
+  padding-top: 30vh;
+  height: 70vh;
   width: 100vw;
   background-color: black;
 }
@@ -62,6 +62,26 @@ h3 {
   color: white;
   font-family: 'Oswald';
   font-size: 25px;
+}
+
+@media (max-width: 1024px) {
+  .profile-title>h1 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .profile-title>h1 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 10px;
+  }
 }
 
 </style>

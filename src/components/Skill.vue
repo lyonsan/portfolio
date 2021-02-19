@@ -71,4 +71,30 @@ p {
   font-size: 15px;
 }
 
+@media (max-width: 1024px) {
+  .skill-title>h1 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 600px) {
+  .skill-title>h1 {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 15px;
+  }
+
+  p {
+    font-size: 8px;
+  }
+}
+
 </style>

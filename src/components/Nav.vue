@@ -48,4 +48,17 @@ a {
   font-weight: bold;
 }
 
+@media (max-width: 1024px) {
+  a {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 600px) {
+  a {
+    font-size: 15px;
+  }
+}
+
+
 </style>
