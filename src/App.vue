@@ -5,6 +5,7 @@
     <Profile></Profile>
     <Skill></Skill>
     <Output></Output>
+    <Contact></Contact>
   </div>
 </template>
 
@@ -15,6 +16,7 @@ import Top from './components/Top.vue'
 import Profile from './components/Profile.vue'
 import Skill from './components/Skill.vue'
 import Output from './components/Output.vue'
+import Contact from './components/Contact.vue'
 
 export default {
   name: 'App',
@@ -23,7 +25,8 @@ export default {
     Top,
     Profile,
     Skill,
-    Output
+    Output,
+    Contact
   }
 }
 </script>

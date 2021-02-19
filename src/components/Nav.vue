@@ -4,7 +4,7 @@
     <li><a href="#profile" class="nav-button" @click="clickSmoothScroll('#profile')">Profile</a></li>
     <li><a href="#skill" class="nav-button" @click="clickSmoothScroll('#skill')">Skill</a></li>
     <li><a href="#output" class="nav-button" @click="clickSmoothScroll('#output')">Output</a></li>
-    <li><a href="#" class="nav-button">Contact</a></li>
+    <li><a href="#contact" class="nav-button" @click="clickSmoothScroll('#contact')">Contact</a></li>
   </ul>
 </template>
 
