@@ -13,7 +13,7 @@
       </div>
       <div class="output-content">
         <img src="../assets/portfolio.jpeg" class="output-image">
-        <a href="https://miro-self-portfolio.netlify.app/#/" target="_blank" rel="noopener noreferrer">Yajima's portfolio</a>
+        <a href="https://yaji-portfolio.netlify.app/" target="_blank" rel="noopener noreferrer">Yajima's portfolio</a>
         <p>自己紹介と自分のスキル・ポートフォリオをまとめた当サイトです。</p>
       </div>
     </div>
