@@ -143,6 +143,7 @@ p {
   .output-content {
     padding: 3vw;
     width: 200px;
+    min-width: 200px;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
