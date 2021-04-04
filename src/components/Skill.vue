@@ -27,8 +27,8 @@ export default {
 <style scoped>
 
 .skill {
-  padding-top: 30vh;
-  height: 70vh;
+  padding-top: 20vh;
+  height: 60vh;
   width: 100vw;
 }
 

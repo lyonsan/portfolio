@@ -1,28 +1,16 @@
 <template>
   <ul>
-    <li><a href="#top" class="nav-button" @click="clickSmoothScroll('#top')">Top</a></li>
-    <li><a href="#profile" class="nav-button" @click="clickSmoothScroll('#profile')">Profile</a></li>
-    <li><a href="#skill" class="nav-button" @click="clickSmoothScroll('#skill')">Skill</a></li>
-    <li><a href="#output" class="nav-button" @click="clickSmoothScroll('#output')">Output</a></li>
-    <li><a href="#contact" class="nav-button" @click="clickSmoothScroll('#contact')">Contact</a></li>
+    <li><a href="#top" class="nav-button">Top</a></li>
+    <li><a href="#profile" class="nav-button">Profile</a></li>
+    <li><a href="#skill" class="nav-button">Skill</a></li>
+    <li><a href="#output" class="nav-button">Output</a></li>
+    <li><a href="#contact" class="nav-button">Contact</a></li>
   </ul>
 </template>
 
 <script>
 export default {
-  name: 'Header',
-  methods: {
-    clickSmoothScroll (x) {
-      event.preventDefault()
-      this.$SmoothScroll(
-        document.querySelector(x),
-        1200,
-        null,
-        null,
-        'y'
-      )
-    }
-  }
+  name: 'Header'
 }
 </script>
 

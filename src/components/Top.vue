@@ -19,7 +19,7 @@ export default {
 
 .top {
   padding-top: 30vh;
-  height: 70vh;
+  height: 50vh;
   width: 100vw;
   background-image: url(../assets/ld-01.jpeg);
   background-size: cover;

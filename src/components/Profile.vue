@@ -48,7 +48,7 @@ export default {
 .profile {
   width: 100vw;
   background-color: #333333;
-  padding: 15vh 0;
+  padding: 10vh 0;
 }
 
 .profile-title {
