@@ -4,14 +4,32 @@
       <div class="profile-title">
         <h1>Profile</h1>
       </div>
-      <div class="profile-content">
-        <h3>ハンドルネーム：miro</h3>
-      </div>
-      <div class="profile-content">
-        <h3>学習していること：VueでのSPAアプリケーションの作成方法を学習しています。</h3>
-      </div>
-      <div class="profile-content">
-        <h3>年齢：26歳</h3>
+      <div class="profile-content-wrapper">
+        <div class="profile-content">
+          <h2>関心のあること</h2>
+          <div class="profile-content-text">
+            <p>モノ/情報へのアクセシビリティ・生活の利便性</p>
+          </div>
+        </div>
+        <div class="profile-content">
+          <h2>関心があるワケ</h2>
+          <div class="profile-content-text">
+            <p>地方活性への関心から、地方での生活水準の向上に貢献したい(仕事・暮らし)</p>
+            <p>自分が面倒くさがり・・</p>
+          </div>
+        </div>
+        <div class="profile-content">
+          <h2>これからやっていきたいこと</h2>
+          <div class="profile-content-text">
+            <p>どこにいても自分のやりたいこと、欲しい物を手に入れられるツールを作りたい</p>
+          </div>
+        </div>
+        <div class="profile-content">
+          <h2>自分が今するべきこと</h2>
+          <div class="profile-content-text">
+            <p>プロダクトを生み出すスキル、実際に生み出している方々との交流</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -28,14 +46,13 @@ export default {
 <style scoped>
 
 .profile {
-  padding-top: 30vh;
-  height: 70vh;
   width: 100vw;
-  background-color: black;
+  background-color: #333333;
+  padding: 15vh 0;
 }
 
 .profile-title {
-  width: 50%;
+  width: 30%;
   margin: 0 auto;
 }
 
@@ -51,17 +68,30 @@ export default {
 
 .profile-contents {
   margin: 0 auto;
-  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  font-family: 'Oswald';
+  font-size: 25px;
+}
+
+.profile-content-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 
-h3 {
-  text-align: center;
+.profile-content {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.profile-content-text {
   color: white;
-  font-family: 'Oswald';
-  font-size: 25px;
 }
 
 @media (max-width: 1024px) {
@@ -69,8 +99,9 @@ h3 {
     font-size: 30px;
   }
 
-  h3 {
-    font-size: 20px;
+
+  .profile-content>h2 {
+    font-size: 24px;
   }
 }
 
@@ -79,9 +110,14 @@ h3 {
     font-size: 20px;
   }
 
-  h3 {
-    font-size: 10px;
+  .profile-content>h2 {
+    font-size: 18px;
   }
+
+  p {
+    font-size: 12px;
+  }
+
 }
 
 </style>

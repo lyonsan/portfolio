@@ -6,11 +6,11 @@
       </div>
       <div class="skill-content">
         <h3>ポートフォリオ制作経験</h3>
-        <p>Ruby on Rails/Vue.js/AWS/Docker/CircleCI</p>
+        <p>HTML/CSS/Ruby/Ruby on Rails/JavaScript/Vue.js/jQuery/AWS/Docker/CircleCI</p>
       </div>
       <div class="skill-content">
         <h3>学習経験</h3>
-        <p>React</p>
+        <p>React/PHP/Python</p>
       </div>
     </div>
   </div>

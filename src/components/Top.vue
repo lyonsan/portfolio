@@ -1,7 +1,7 @@
 <template>
   <div id="top" class="top">
     <div class="top-content">
-      <h1>Miro's</h1>
+      <h1>Yajima's</h1>
       <h1>portfolio</h1>
     </div>
   </div>
@@ -21,6 +21,8 @@ export default {
   padding-top: 30vh;
   height: 70vh;
   width: 100vw;
+  background-image: url(../assets/ld-01.jpeg);
+  background-size: cover;
 }
 
 .top-content {
