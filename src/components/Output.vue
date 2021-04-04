@@ -134,9 +134,20 @@ p {
     margin-bottom: 15vh;
   }
 
+  .output-image {
+    height: 200px;
+    width: 200px;
+    margin: 15px auto;
+  }
+
   .output-content {
+    padding: 3vw;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
     margin: 0 auto;
   }
+
 }
 
 @media (max-width: 600px) {
